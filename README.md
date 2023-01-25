@@ -19,31 +19,35 @@ The project application, **Udagram** - an image iltering application, allows use
 
 Udagram starter application has been provided by the Udacity team. I worked on deploying this application and setting up a CD/CI pipeline on CircleCI.
 
-* Frontend URL: [http://udacity-deployment-circleci.s3-website-us-west-2.amazonaws.com/](http://udacity-deployment-circleci.s3-website-us-west-2.amazonaws.com/)
-* Backend URL:  [http://udagram-api-dev22.us-west-2.elasticbeanstalk.com/](http://udagram-api-dev22.us-west-2.elasticbeanstalk.com/)
+- Frontend URL: [http://udacity-deployment-circleci.s3-website-us-west-2.amazonaws.com/](http://udacity-deployment-circleci.s3-website-us-west-2.amazonaws.com/)
+- Backend URL:  [http://udagram-api-dev22.us-west-2.elasticbeanstalk.com/](http://udagram-api-dev22.us-west-2.elasticbeanstalk.com/)
 
 ## Screenshots
 
-* Last successful CircleCi build:
+- Last successful CircleCi build:
 
-![](images/circleci_workflow.png)
+![CircleCI Workflow](images/circleci_workflow.png)
 
-* Build:
+- Build:
 
-![](images/circleci_build.png)
+![CircleCI Build](images/circleci_build.png)
 
-* Deploy:
+- Deploy:
 
-![](images/circleci_deploy.png)
+![CircleCI Deploy](images/circleci_deploy.png)
 
-* AWS RDS: Database Server
+- CircleCI Secrets
 
-![](images/rds.png)
+![CircleCI Secrets](images/circleci_secrets.png)
 
-* AWS ElasticBeanstalk: API Deployment
+- AWS RDS: Database Server
 
-![](images/eb.png)
+![RDS](images/rds.png)
 
-* AWS S3: Frontend
+- AWS ElasticBeanstalk: API Deployment
 
-![](images/buckets_UI.png)
+![EB API](images/eb.png)
+
+- AWS S3: Frontend
+
+![UI Buckets](images/buckets_UI.png)
